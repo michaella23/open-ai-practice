@@ -15,6 +15,7 @@ async function main() {
           {"role": "user", "content": "Where was it played?"}],
       model: "gpt-3.5-turbo",
     });
+    console.log(completion.choices[0])
   }
   
   main();
